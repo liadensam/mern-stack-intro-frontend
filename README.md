@@ -1,3 +1,20 @@
+# MERN stack
+
+This assignment serves as an itroduction to non relational databases (or NoSQL). I followed [this written tutorial](https://faun.pub/the-mern-stack-for-beginners-e607eb8b7100) to better better understand how to connect to MongoDB an what does MERN stack means. The MERN stack is a technology stack for people who want to make a web application. MERN stands for MongoDB, Express, React and NodeJS.
+
+## Backend
+
+I set up our server on a port to run and used express and cors to be able to connect with our frontend.
+As in the article is no information about using environmental variables to hide your password, I created `.env` file, put it into a `.gitignore` file so none can see it in the repository as well and used the variable from `.env` file as `const DBPASSWORD = process.env.DBPASSWORD;`.
+
+- [Backend repository link](https://github.com/liadensam/mern-stack-intro-backend)
+
+## Frontend
+
+I used react as my frontend tech stack.
+
+- [Frontend repository link](https://github.com/liadensam/mern-stack-intro-frontend)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
